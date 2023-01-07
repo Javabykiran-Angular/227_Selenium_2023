@@ -1,0 +1,57 @@
+			Welcome To Selenium Automation
+				  Sumit Raokhande
+
+- B.E.Electronics, KBP satara
+- M.Tech Electronics, Walchand College Sangli
+- C-Dac Wimc , Sunbeam pune
+- worked as Mobile Application developer at tivre business solution
+- worked on J2ME,Symbian,Windows Mobile,Reaserach Motion
+- Worked as Android developer at veetron 
+- Live android application prasieo,autohub,garage
+- Worked as JDE Developer of Oracle Product
+- Worked as OpenSDK developer
+- work as angular developer
+- work on google cloud & docker 
+
+
+ - sta & sunday 
+ - 8.30am 
+ - Duration 1.30hr or 2 hr 
+ - project is there 
+ - oops concept must => core java
+	- polymorphism
+	- inheritance
+	- encap
+	- abst
+	- clas, object 
+ - basic of html & css known 
+ - manual testing 
+ - daily practise is required 
+ - download recodrding 
+ - don't miss any session
+ - all code will be given 
+ 
+
+
+
+
+
+testcase 1 
+		it is dispaly pop up box yes no passed
+
+
+
+Selenium 
+Advantage
+1 It is open source 
+2 it is used for web based application
+3 It support all platform(os=> windows,linux,mac,suse,ubantu) 
+4 it required less time to excecute
+5 it is easily implement 
+6 all browser suuport (chrome,firfox,edge,IE,safari,opera)
+Disadvantage
+1 we can't test desktop application (word,notepad,ppt,calculator)
+2 it not test captcha,file download ,image 
+3 it is not support mobile native application 
+
+
