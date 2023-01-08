@@ -1,0 +1,34 @@
+Last Lecture
+1 Intoduction 
+2 Selenium 
+	Advantage
+	1 It is open source 
+	2 it is used for web based application
+	3 It support all platform(os=> windows,linux,mac,suse,ubantu) 
+	4 it required less time to excecute
+	5 it is easily implement 
+	6 all browser suuport (chrome,firfox,edge,IE,safari,opera)
+	Disadvantage
+	1 we can't test desktop application (word,notepad,ppt,calculator)
+	2 it not test captcha,file download ,image 
+	3 it is not support mobile native application 
+3 Selenium supports 
+	- java,python,c#,ruby...
+4 Intro of enhancement
+	
+5 Regressation 
+6 Error vs bug/defect
+	bug/defect 
+		actual output =! expected output 
+	
+7 Intro of Test case
+	
+
+
+Today Lecture
+1 How to write a Test Case
+2 Basic of HTML (pending)
+	Tag,webelement
+3 Environmental setup
+	https://javabykiran.in/selenium/javabykiran-Selenium-Softwares.zip
+4 simple Program
