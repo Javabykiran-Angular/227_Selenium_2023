@@ -1,0 +1,62 @@
+Last Lecture
+1 How to write a Test Case
+	tcid testtype pre-condition description url steps test data expected result acutal result status  comment
+2 Basic of HTML (pending)
+	Tag,webelement
+3 Environmental setup
+	https://javabykiran.in/selenium/javabykiran-Selenium-Softwares.zip
+	
+	
+	
+4 simple Program
+
+Today Lecture
+1 Introduction of WebElement
+	Basic of HTML 
+	Tag,webelement
+	
+	tag 2 types
+		1 paried tag
+			<h1> Hopes So u r enjoy </h1>
+		2 uparired tag 
+			<br>
+			<input>
+	<html> 
+		<head>
+			<tilte> My first page </title>
+		</head>
+		<body>
+			<h1> Selenium Module <h1>
+			<input type="checkbox">
+			<input type="number" placehoder="enter the number " >
+			<input type="date" class="" id="" style="">
+			<input type="email">
+			<input type="file">
+			<input type="password">				
+			
+			
+			<button>  </button>
+			
+			
+			
+		</body>
+	</html>
+	
+	
+2 WebDriver Methods
+
+//Pending
+3 How to access web element
+4 WebElement Interface
+5 use of By Class
+4 Locators
+	1 by xapth(browser xpath & dynamic xpath)
+	2 by name
+	3 by id
+	4 by tag name 
+	5 by css class name  
+	6 by linkText
+	7 by partialLinkText
+	
+5 how to access dropdown
+6 How to handle Alert
