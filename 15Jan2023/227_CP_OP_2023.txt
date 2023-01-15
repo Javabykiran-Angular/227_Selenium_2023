@@ -1,0 +1,69 @@
+Last Lecture
+1 Introduction of WebElement
+	Basic of HTML 
+	Tag,webelement
+	
+	tag 2 types
+		1 paried tag
+			<h1> Hopes So u r enjoy </h1>
+		2 uparired tag 
+			<br>
+			<input>
+			
+	<html> 
+		<head>
+			<tilte> My first page </title>
+		</head>
+		<body>
+			<h1> Selenium Module <h1>
+			<input type="text">
+			<input type="checkbox">
+			<input type="number" placehoder="enter the number " >
+			<input type="date" class="" id="" style="">
+			<input type="email">
+			<input type="file">
+			<input type="password">				
+			<input type="radio">	
+			
+			<button> Login </button>
+			
+			
+			
+		</body>
+	</html>
+DOM=> Document Object Model 
+	
+2 WebDriver Methods
+	
+	public static void main(...){
+		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
+		
+		Webdriver driver=new ChromeDriver();
+		
+		driver.get("....");
+		
+		String str=driver.getTittle();
+		syso(str)
+		
+	}
+	
+
+
+Today Lecture
+1 How to access web element
+2 WebElement Interface
+3 use of By Class
+4 Locators
+	1 by xapth(browser xpath & dynamic xpath)
+	
+	
+5 how to access dropdown
+6 How to handle Alert
+
+//pending
+2 by name
+	3 by id
+	4 by tag name 
+	5 by css class name  
+	6 by linkText
+	7 by partialLinkText
