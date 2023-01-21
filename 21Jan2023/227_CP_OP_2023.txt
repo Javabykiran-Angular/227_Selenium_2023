@@ -1,0 +1,46 @@
+Last Lecture
+1 How to access web element
+	
+	Webelement element= driver.findElement(By.xapath("...."))
+		element.sendKeys();	
+	
+	
+2 WebElement Interface
+	getText(),click()
+
+4 Locators
+	1 by xapth(browser xpath)
+	driver.findElement(By.xpath("")).sendKeys("kiran@gmail.com")
+		
+5 how to access dropdown
+WebElement dropelement=driver.findElement(By.xpath("..."))
+	Select dropdown=new Select(dropelement);
+		dropdown.selectByIndex(1);
+		dropdown.SelectByVisibleText("HP");
+		dropdown.SelectByValue("HP");
+		
+6 How to handle Alert
+		Alert alert=driver.switchTo().alert();
+		String str=alert.getText();
+		alert.accept();
+		
+		
+
+Today Lecture
+1 Chrome browser vs chrome driver 
+
+Locators	
+	-  by linkText
+	-  by partialLinkText
+	-  by name
+	-  by id
+	-  by tag name 
+	-  by css class name  
+2 Navigation commands
+	
+//pending	
+3 Modify the code as per industry standards
+
+4 How to get data from table 
+
+ 
