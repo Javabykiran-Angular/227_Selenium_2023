@@ -1,0 +1,47 @@
+Last Lecture
+1 Chrome browser vs chrome driver 
+	-it business browser => 70mb 
+	- Chrome driver => 30mb 
+Locators	
+	-  by linkText
+		driver.findElement(By.linkText("Register a new Member")).click();
+	-  by partialLinkText
+		driver.findElement(By.partialLinkText("Register ")).click();
+	-  by name
+	<input name="name1" id="password">
+		driver.findElement(By.name("name1")).sendKeys("Sumit");
+	-  by id
+	driver.findElement(By.id("password")).sendKeys("Sumit");
+	-  by tag name 
+		//driver.findElement(By.tagName("input")).sendKeys("Sumit");
+			
+			List<WebElement> list=driver.findElements(By.tagName("input"));
+			
+			for(int i=0;i<list.size();i++){
+				if(list.get(i).getAttribute("placeholder").compareTo("Email")==0){
+				list.get(i).sendKeys("abc@gmail.com")
+				}
+			}
+		
+	-  by css class name  
+		driver.findElement(By.className("btn")).click();
+2 Navigation commands
+	
+	driver.navigate().back();
+	driver.navigate().forwared();
+	driver.navigate().refresh();
+	
+Today Lecture
+1 How to get data from table
+
+2 how to handle multiple windows
+
+3 Modify the code as per industry standards
+
+//pending
+4 How to handle iframe
+
+
+
+
+ 
