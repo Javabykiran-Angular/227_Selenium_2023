@@ -1,0 +1,81 @@
+Last Lecture
+1 How to get data from table
+	List<WebElement> list= driver.findElements(By.tagName("tr"));
+	
+	for(int i=1;i<list.size;i++){
+		List <WebElement> cols= list.get(i).findElements(By.tagName("td"))
+		for(int j=1;j<cols.size();j++){
+			syso(cols.get(j).getText());
+		}
+		syso("=====")
+	}
+	
+	
+	
+	for(int i=0;i<list.size();i++){
+	
+		if(i==0){
+			List <WebElement> cols= list.get(i).findElements(By.tagName("th"))
+		}else{
+		List <WebElement> cols= list.get(i).findElements(By.tagName("td"))
+		}
+	
+		// List <WebElement> cols= list.get(i).findElements(By.tagName("td"))
+		for(int j=1;j<cols.size();j++){
+			syso(cols.get(j).getText());
+		}
+		syso("=====")
+	}
+	
+	
+
+2 how to handle multiple windows
+	
+	driver.getWindowHandles()
+	driver.switchTo().window(tabs.get(3));
+	
+	
+
+3 Modify the code as per industry standards
+
+	Class Demo{
+		WebDriver driver;
+		
+		void driverSettiing(){
+			Stsytem.setProperty("webdriver.chrome.driver","chromedriver.exe");
+			driver=new ChromeDriver();
+		}
+		
+		void getUrl(String url){
+			driver.get(url);
+		}
+		void login(){
+			....
+		}
+		
+		psvm(){
+			Demo obj=new Demo();
+			
+			obj.driverSettiing();
+			obj.getUrl(".....");
+			obj.login();
+		}
+		
+	}
+	
+	
+Today Lecture
+1 How to handle iframe
+	- iframe is html tag
+	
+2 How to take ScreenShot
+	
+3 How to use implicit wait
+4 How to use explicit wait
+ 
+5 Modify your code more structured format 
+
+
+
+
+ 
