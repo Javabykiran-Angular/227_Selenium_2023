@@ -1,0 +1,28 @@
+Last Lecture
+1 How to handle iframe
+	- iframe is html tag
+	driver.swtichTo().frame(0)
+	driver.swtichTo().frame("webform")
+	
+	driver.findEment(...).click();
+	
+2 How to take ScreenShot
+	
+3 Modify your code more structured format
+	
+Today Lecture
+1 How to use implicit wait
+2 How to use explicit wait
+3 Properties file
+	- It is simple text file
+	- its extention is .properties
+	- store a data in key & value format 
+	- u can store configuration data u can store 
+//pending 	
+4 excel sheet 
+ 
+
+
+
+
+ 
