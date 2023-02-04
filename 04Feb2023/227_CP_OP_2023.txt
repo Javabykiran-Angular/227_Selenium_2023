@@ -1,0 +1,35 @@
+Last Lecture
+1 How to use implicit wait
+2 How to use explicit wait
+3 Properties file
+	- It is simple text file
+	- its extention is .properties
+	- store a data in key & value format 
+	- u can store configuration data u can store 
+	myfile.properties
+	name=sumit
+	password:sumit@123
+	
+	try{
+	FileInputStream fis=new FileInputStream("....")
+	
+		Properties props=new Properties();
+		props.load(fis);
+		SYO(props.get)
+	
+	}
+	catch(IoException e){
+	....
+	}
+	
+Today Lecture
+1 excel sheet 
+	- U can store test data 
+//pending	
+2 Dynamic xpath
+ 
+
+
+
+
+ 
