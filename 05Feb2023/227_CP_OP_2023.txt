@@ -1,0 +1,28 @@
+Last Lecture
+1  excel sheet 
+	- U can store test data 
+	- apache poi 5.2.3
+	
+Today Lecture
+1 Dynamic xpath
+
+//Syntax 
+//htmlTag[@elementLocators='value']
+
+//input[contains(@name,'passwd')]
+
+//input[starts-with(@name,'passwd')]
+
+(//div[@id='HEADBAND0']//following::li)[2]//a
+
+//div[@id='HEADBAND0']//child::li[3]//a
+
+//div[@id='HEADBAND0']//child::li[3]//following-sibling::li[2]//a
+
+
+ 
+
+
+
+
+ 
