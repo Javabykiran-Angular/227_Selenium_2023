@@ -1,0 +1,24 @@
+Last Lecture
+1 TestNg 
+ junit,TestNg
+ 
+ TestNg+selenium automation +core java=freamwork
+ 
+	
+2 TestNg Methods
+	
+
+3 TestNg xml
+4 how to intergrate testng with selenium
+
+Today Lecture
+1 Assert
+2 hard Assert
+3 Soft Assert 	
+4 Data Provider
+5 Freamwork intergration
+
+
+
+
+ 
